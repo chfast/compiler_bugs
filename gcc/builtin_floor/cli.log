@@ -1,0 +1,39 @@
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-linux-gnu/10.2.0/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: /usr/src/gcc/configure --build=x86_64-linux-gnu --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-save-temps' '-O2' '-frounding-math' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-linux-gnu/10.2.0/cc1 -E -quiet -v -imultiarch x86_64-linux-gnu builtin_floor_test.c -mtune=generic -march=x86-64 -frounding-math -O2 -fpch-preprocess -o builtin_floor_test.i
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/local/lib/gcc/x86_64-linux-gnu/10.2.0/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/x86_64-linux-gnu/10.2.0/include
+ /usr/local/include
+ /usr/local/lib/gcc/x86_64-linux-gnu/10.2.0/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+COLLECT_GCC_OPTIONS='-v' '-save-temps' '-O2' '-frounding-math' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-linux-gnu/10.2.0/cc1 -fpreprocessed builtin_floor_test.i -quiet -dumpbase builtin_floor_test.c -mtune=generic -march=x86-64 -auxbase builtin_floor_test -O2 -version -frounding-math -o builtin_floor_test.s
+GNU C17 (GCC) version 10.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 10.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU C17 (GCC) version 10.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 10.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7a3673f802d31ddfc9d76d0e04bd4169
+COLLECT_GCC_OPTIONS='-v' '-save-temps' '-O2' '-frounding-math' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o builtin_floor_test.o builtin_floor_test.s
+GNU assembler version 2.31.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.31.1
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-linux-gnu/10.2.0/:/usr/local/libexec/gcc/x86_64-linux-gnu/10.2.0/:/usr/local/libexec/gcc/x86_64-linux-gnu/:/usr/local/lib/gcc/x86_64-linux-gnu/10.2.0/:/usr/local/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-linux-gnu/10.2.0/:/usr/local/lib/gcc/x86_64-linux-gnu/10.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/lib/gcc/x86_64-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-save-temps' '-O2' '-frounding-math' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-linux-gnu/10.2.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=builtin_floor_test.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/lib/gcc/x86_64-linux-gnu/10.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-linux-gnu/10.2.0 -L/usr/local/lib/gcc/x86_64-linux-gnu/10.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib/gcc/x86_64-linux-gnu/10.2.0/../../.. builtin_floor_test.o -lm -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/local/lib/gcc/x86_64-linux-gnu/10.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-save-temps' '-O2' '-frounding-math' '-mtune=generic' '-march=x86-64'
